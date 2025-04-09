@@ -4,8 +4,8 @@ public class LoginSystem {
 
     public static void main(String[] args) {
         // Hardcoded username and password
-        String correctUsername = "administratior";
-        String correctPassword = "ASDasd123";
+        String correctUsername = "developer";
+        String correctPassword = "PassWord123";
 
         Scanner scanner = new Scanner(System.in);
 

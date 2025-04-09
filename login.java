@@ -4,8 +4,8 @@ public class LoginSystem {
 
     public static void main(String[] args) {
         // Hardcoded username and password
-        String correctUsername = "admin";
-        String correctPassword = "12345";
+        String correctUsername = "administratior";
+        String correctPassword = "ASDasd123";
 
         Scanner scanner = new Scanner(System.in);
 
@@ -22,5 +22,19 @@ public class LoginSystem {
         }
 
         scanner.close();
+    }
+}
+
+public class HelloWorld {
+
+    // Main method: the entry point of the program
+    public static void main(String[] args) {
+        HelloWorld greeter = new HelloWorld();
+        greeter.sayHello("World");
+    }
+
+    // Method to print a greeting message
+    public void sayHello(String name) {
+        System.out.println("Hello, " + name + "!");
     }
 }
